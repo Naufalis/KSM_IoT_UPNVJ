@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KSM IoT UPN "Veteran" Jakarta</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://kit.fontawesome.com/39f18ee680.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="Images/Logo Baru.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Department</a></li>
+                <li><a href="#portofolio">Portofolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Kelompok Studi Mahasiswa</p>
+            <h1><span>Internet of Things</span><br>UPNVJ</h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about----------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/User Newbaru.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Us</h1>
+                <p>KSM IoT (Kelompok Studi Mahasiswa Internet of Things) merupakan organisasi yang menghimpun minat dan bakat mahasiswa Teknik Elektro UPN Veteran Jakarta di dalam bidang Internet of Things. Internet of things merupakan sebuah konsep dimana suatu benda ditanamkan teknologi-teknologi seperti sensor, aktuator, dan software dengan tujuan untuk berkomunikasi, mengendalikan, memantau, dan bertukar data melalui perangkat lain selama masih terhubung ke internet.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('visi')">Visi</p>
+                    <p class="tab-links" onclick="opentab('misi')">Misi</p>
+                </div>
+                <div class="tab-contents active-tab" id="visi">
+                    <ul>
+                        <li>Menjadikan KSM Internet of Things (IoT) sebagai wadah pengembanganan minat dan bakat mahasiswa dalam bidang Internet of Things untuk menghasilkan mahasiswa berprestasi serta berkualitas.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="misi">
+                    <ul>
+                        <li>Melakukan penelitian dan mengimplementasikan ilmu-ilmu yang berkaitan dengan Internet of Things.</li>
+                        <li>Berpartisipasi aktif dalam mengikuti berbagai macam perlombaan dalam bidang Internet of Things.</li>
+                        <li>Meningkatkan mutu dan wawasan melalui partisipasi dalam lomba Internet of Things.</li>
+                        <li>Menjalin komunikasi yang baik agar terjadinya keharmonisan di internal KSM IoT.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----------services----------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Our Department</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-users-line"></i>
+                <h2>PSDM</h2>
+                <p>Bertanggung jawab mengembangkan sumber daya manusia dalam bidang akademik dan non akademik.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Research Department</h2>
+                <p>Melakukan pelatihan guna mempersiapkan SDM untuk mengikuti kompetisi Internet of Things dalam tingkat regional, nasional, maupun internasional.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-circle-info"></i>
+                <h2>HUMINFO</h2>
+                <p>Bertanggung jawab dalam mengelola dan menyebarluaskan informasi yang berkaitan dengan KSM Internet of Things.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----------Portofolio----------- -->
+<div id="portofolio">
+    <div class="container">
+        <h1 class="sub-title">Our Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/work-1.png">
+                <div class="layer">
+                    <h3>Coming Soon</h3>
+                    <p>The project is currently in the development or preparation stage and will be launched soon.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work-2.png">
+                <div class="layer">
+                    <h3>Coming Soon</h3>
+                    <p>The project is currently in the development or preparation stage and will be launched soon.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work-3.png">
+                <div class="layer">
+                    <h3>Coming Soon</h3>
+                    <p>The project is currently in the development or preparation stage and will be launched soon.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- -----------Contact----------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Us</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> KSMIoTUPNVJ@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 0123455677</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://www.instagram.com/iot.upnvj/?igshid=NjIwNzIyMDk2Mg%3D%3D"><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Images/Formulir Pendaftaran KSM IoT UPNVJ.pdf" download class="btn btn2">Join</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p><i class="fa-regular fa-copyright"></i> Copyright Naufalis Febrian 2023.</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
